@@ -12,11 +12,15 @@ import SpreadOperator from './SpreadOperator';
 import TodoList from './TodoList';
 import UseState from './ReactHooks/UseState';
 import UseEffect from './ReactHooks/UseEffect';
+import StateFull from './StateFull';
+import DefaultProp from './DefaultProp';
+import PropsValidation from './PropsValidation';
+import Ref from './Ref';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseEffect />
+    <Ref />
   </React.StrictMode>,
   document.getElementById('root')
 );
